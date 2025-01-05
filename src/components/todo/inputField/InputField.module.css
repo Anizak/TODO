@@ -1,0 +1,42 @@
+.inputField {
+  width: 100%;
+  height: 80px;
+  /* background-color: aliceblue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top : 10px;
+  gap: 10px;
+}
+
+.inputField .input {
+  width: 100%;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding: 20px;
+}
+
+.inputField .btn {
+  width: 25%;
+  height: 50px;
+}
+
+.inputField .inputBox{
+  width: 70%;
+  height: 80px;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.inputField .inputBox span{
+  font-size: 14px;
+  color: red;
+  margin-left: 20px;
+  display: none;
+}

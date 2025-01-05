@@ -1,0 +1,62 @@
+.noticeBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+}
+
+.noticeBox h2{
+    font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.noticeBox span{
+    color: #666;
+}
+
+.dangersign {
+  width: 30px;
+  height: 30px;
+}
+
+.noticeBox .buttonBox {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin-top: 20px;
+}
+
+.noticeBox .buttonBox .closeBtn {
+  width: 50%;
+  height: 100%;
+  border: none;
+  margin-left: 10px;
+  border-radius: 25px;
+  background-color: #F2F3F5;
+  color: #333;
+}
+.noticeBox .buttonBox .closeBtn:hover{
+    background-color: #E1E3E6;
+}
+
+.noticeBox .buttonBox .deleteBtn {
+  width: 50%;
+  height: 100%;
+  border: solid 1px;
+  border-radius: 25px;
+  background-color: #FF5A5F;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+
+}
+.noticeBox .buttonBox .deleteBtn:hover {
+    background-color: #FF3B3F;
+  }

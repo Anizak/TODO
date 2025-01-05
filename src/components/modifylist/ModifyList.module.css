@@ -1,0 +1,41 @@
+.box {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  align-items: center;
+  padding: 15px;
+  background-color: #e1e1ef;
+  border-radius: 10px;
+}
+
+.box .btn {
+  width: 140px;
+  height: 40px;
+  cursor: pointer;
+  color: white; 
+}
+.box span{
+  color: #4a4a4a
+}
+
+.box .filter_section {
+  /* margin-bottom: 20px; */
+  width: 150px;
+  height: 40px;
+  margin-left: 180px;
+}
+
+.box .filter_section select {
+  width: 140px;
+  height: 40px;
+  border: 1px solid #7f70df;
+  border-radius: 10px;
+  outline: none;
+  /* background-color: #edf4e5; */
+  background-color: transparent;
+  color: #7f70df;
+  padding: 8px;
+  font-size: 14px;
+}

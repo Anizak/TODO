@@ -1,0 +1,72 @@
+.item {
+  width: 100%;
+  height: 50px;
+  background-color:  #e1e1ef;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.item .buttonBox{
+  width: 185px;
+  height: 100%;
+  /* background-color: #979292; */
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  align-items: center;
+  gap: 20px;
+}
+
+.item .buttonBox button{
+  width: 35px;
+  height: 35px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer; 
+}
+
+.item .buttonBox button:hover .editIcon{
+  color: #3d3737;
+  font-size: 28px;
+}
+.item .buttonBox button:hover .deleteIcon{
+  color: #3d3737;
+  font-size: 28px;
+}
+
+.item .buttonBox button .editIcon{
+  font-size: 24px;
+  color: #7f70df;
+  transition: 0.5s;
+}
+
+.item .buttonBox button .deleteIcon{
+  font-size: 24px;
+  color: #7f70df;
+  transition:  0.5s;
+}
+
+.item .inputItem{
+  width: calc(100% - 250px);
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+  color: darkslategrey;
+  background-color: unset;
+}
+
+.item .activeItem{
+  background-color: azure;
+}
+
+.item .checkBox{
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
