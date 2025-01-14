@@ -63,7 +63,7 @@ const Item = ({data}) => {
         onChange={(e) => setValue(e.target.value)}
       />
       <div className={styles.buttonBox}>
-        <button onClick={activate}>
+        <button onClick={activate} disabled={edited && value.trim() === "" ? true : false}>
           {edited ? (
             <LuSave className={styles.editIcon} onClick={edited ? save : activate}/>
           ) : (
